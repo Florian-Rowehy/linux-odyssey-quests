@@ -23,7 +23,6 @@ $ find
 ./planets/réelles/terrestre/uranus.jpeg
 ./planets/réelles/terrestre/venus.jpeg
 ./planets.zip
-./Prenoms.csv
 
 Bob@DESKTOP-AAL1AHB MINGW64 /d/WildCodeSchool/quetes/shell
 $ history
