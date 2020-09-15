@@ -2,40 +2,42 @@ Bob@DESKTOP-AAL1AHB MINGW64 /d/WildCodeSchool/quetes/shell
 $ find
 .
 ./planets
-./planets/fictional
-./planets/fictional/arrakis.jpeg
-./planets/fictional/coruscant.jpeg
-./planets/fictional/cybertron.jpeg
-./planets/inhabited
-./planets/inhabited/arrakis.jpeg
-./planets/inhabited/cybertron.jpeg
-./planets/inhabited/earth.jpeg
-./planets/inhabited/mars.jpeg
-./planets/real
-./planets/real/dwarf-planets
-./planets/real/earth.jpeg
-./planets/real/gas-giants
-./planets/real/jupiter.jpeg
-./planets/real/mars.jpeg
-./planets/real/mercury.jpeg
-./planets/real/neptune.jpeg
-./planets/real/saturn.jpeg
-./planets/real/telluric
-./planets/real/uranus.jpeg
-./planets/real/venus.jpeg
+./planets/fictives
+./planets/fictives/arrakis.jpeg
+./planets/fictives/coruscant.jpeg
+./planets/fictives/cybertron.jpeg
+./planets/habitées
+./planets/habitées/arrakis.jpeg
+./planets/habitées/cybertron.jpeg
+./planets/habitées/earth.jpeg
+./planets/habitées/mars.jpeg
+./planets/réelles
+./planets/réelles/géantes-gazeuses
+./planets/réelles/géantes-gazeuses/jupiter.jpeg
+./planets/réelles/géantes-gazeuses/saturn.jpeg
+./planets/réelles/terrestre
+./planets/réelles/terrestre/earth.jpeg
+./planets/réelles/terrestre/mars.jpeg
+./planets/réelles/terrestre/mercury.jpeg
+./planets/réelles/terrestre/neptune.jpeg
+./planets/réelles/terrestre/uranus.jpeg
+./planets/réelles/terrestre/venus.jpeg
 ./planets.zip
+./Prenoms.csv
 
 Bob@DESKTOP-AAL1AHB MINGW64 /d/WildCodeSchool/quetes/shell
 $ history
-    
-  106  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
-  107  unzip planets.zip
-  109  cd planets
-  110  mkdir real fictional inhabited
-  111  mkdir real/telluric real/gas-giants real/dwarf-planets
-  119  cp arrakis.jpeg  cybertron.jpeg earth.jpeg mars.jpeg inhabited/
-  122  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictional/
-  124  mv *.jpeg real/
-  126  rm real/pluto.jpeg
-  129  find
-  130  history
+  327  cd planets
+  330  mkdir réelles fictives habitées
+  331  mkdir réelles/{terrestre,géantes-gazeuses,planètes-naines}
+  334  cp arrakis.jpeg cybertron.jpeg earth.jpeg mars.jpeg habitées/
+  335  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictives/
+  336  mv *.jpeg réelles/
+  337  cd réelles/
+  339  mv jupiter.jpeg saturn.jpeg géantes-gazeuses/
+  340  mv pluto.jpeg planètes-naines/
+  342  mv *.jpeg terrestre/
+  344  rm -r planètes-naines/
+  345  cd ../..
+  347  find
+  348  history
