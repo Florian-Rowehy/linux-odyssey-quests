@@ -1,0 +1,13 @@
+Bob@DESKTOP-AAL1AHB MINGW64 /
+$ cd usr/
+
+Bob@DESKTOP-AAL1AHB MINGW64 /usr
+$ ls
+bin/  etc/  lib/  libexec/  share/  ssl/
+
+Bob@DESKTOP-AAL1AHB MINGW64 /usr
+$ pwd
+/usr
+
+Bob@DESKTOP-AAL1AHB MINGW64 /usr
+$
