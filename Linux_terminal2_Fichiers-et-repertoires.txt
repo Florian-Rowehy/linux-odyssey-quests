@@ -1,0 +1,41 @@
+Bob@DESKTOP-AAL1AHB MINGW64 /d/WildCodeSchool/quetes/shell
+$ find
+.
+./planets
+./planets/fictional
+./planets/fictional/arrakis.jpeg
+./planets/fictional/coruscant.jpeg
+./planets/fictional/cybertron.jpeg
+./planets/inhabited
+./planets/inhabited/arrakis.jpeg
+./planets/inhabited/cybertron.jpeg
+./planets/inhabited/earth.jpeg
+./planets/inhabited/mars.jpeg
+./planets/real
+./planets/real/dwarf-planets
+./planets/real/earth.jpeg
+./planets/real/gas-giants
+./planets/real/jupiter.jpeg
+./planets/real/mars.jpeg
+./planets/real/mercury.jpeg
+./planets/real/neptune.jpeg
+./planets/real/saturn.jpeg
+./planets/real/telluric
+./planets/real/uranus.jpeg
+./planets/real/venus.jpeg
+./planets.zip
+
+Bob@DESKTOP-AAL1AHB MINGW64 /d/WildCodeSchool/quetes/shell
+$ history
+    
+  106  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  107  unzip planets.zip
+  109  cd planets
+  110  mkdir real fictional inhabited
+  111  mkdir real/telluric real/gas-giants real/dwarf-planets
+  119  cp arrakis.jpeg  cybertron.jpeg earth.jpeg mars.jpeg inhabited/
+  122  mv arrakis.jpeg cybertron.jpeg coruscant.jpeg fictional/
+  124  mv *.jpeg real/
+  126  rm real/pluto.jpeg
+  129  find
+  130  history
